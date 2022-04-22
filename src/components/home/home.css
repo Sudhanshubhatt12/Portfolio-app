@@ -1,0 +1,84 @@
+.container img {
+  position: absolute;
+  right: 0;
+  height: 6rem;
+}
+
+.home_main {
+  height: 100vh;
+  padding-top: 7rem;
+  padding-right: 15rem;
+}
+
+.home_main .home_centre .hometext h2 {
+  color: var(--color-primary);
+}
+
+.home_main .home_centre .hometext .namesvg {
+  position: relative;
+  top: 0.5rem;
+  left: -9.8rem;
+  height: 6rem;
+  width: 50rem;
+}
+
+.home_main .home_centre .hometext svg text {
+  stroke: rgb(255, 123, 0);
+  text-shadow: 0.8rem 0.8rem 0.4rem black;
+  font-size: 4rem;
+  font-weight: 600;
+  stroke-width: 1;
+  animation: textanimate 1.5s infinite alternate;
+}
+
+@keyframes textanimate {
+  0% {
+    stroke-dasharray: 0 50%;
+  }
+
+  100% {
+    stroke-dasharray: 50% 0;
+  }
+}
+
+.buttons {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 3rem;
+  bottom: 6rem;
+}
+
+.socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+.home_main .home_centre {
+  display: flex;
+}
+
+.home_main .home_centre .homeimg {
+  position: relative;
+  right: -18rem;
+  bottom: -2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+.home_main .home_centre .homeimg img {
+  height: 32rem;
+  width: 50rem;
+  border-bottom: 0.4rem solid rgb(112, 90, 17);
+  background: transparent;
+}

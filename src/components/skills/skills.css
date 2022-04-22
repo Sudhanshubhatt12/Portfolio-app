@@ -1,0 +1,89 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.container .skill-card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 2rem;
+}
+.container .skill-card .card {
+  width: 14rem;
+  text-align: center;
+}
+.container .skill-card .card .icons{
+  position: relative;
+  left: 5px;
+  top: -9rem;
+  font-size: 3rem;
+}
+.container .skill-card .card:nth-child(1) .icons{
+  color: red;
+}
+.container .skill-card .card:nth-child(2) .icons{
+  color: blue;
+}
+.container .skill-card .card:nth-child(3) .icons{
+  color: yellow;
+}
+.container .skill-card .card:nth-child(4) .icons{
+  color: rgb(0, 238, 255);
+}
+.container .skill-card .card h2 {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  text-shadow: 2px 2px 3px rgb(0, 238, 255);
+}
+.container .skill-card .card p{
+  position: relative;
+  top: -5rem;
+}
+
+.container .skill-card .circle {
+  height: 8rem;
+  transform: rotate(-85deg);
+  width: 8rem;
+  stroke: rgb(255, 0, 0);
+  stroke-width: 10;
+  fill: none;
+  animation: animate 4s infinite ;
+}
+.container .skill-card .circle1 {
+  height: 8rem;
+  width: 8rem;
+  transform: rotate(-85deg);
+  stroke: rgb(29, 5, 248);
+  stroke-width: 10;
+  fill: none;
+  animation: animate 4s infinite ;
+}
+.container .skill-card .circle2 {
+  height: 8rem;
+  width: 8rem;
+  transform: rotate(-85deg);
+  stroke: rgb(229, 255, 0);
+  stroke-width: 10;
+  fill: none;
+  animation: animate 4s infinite ;
+}
+.container .skill-card .circle3 {
+  height: 8rem;
+  transform: rotate(-85deg);
+  width: 8rem;
+  stroke: rgb(0, 238, 255);
+  stroke-width: 10;
+  fill: none;
+  animation: animate 4s infinite ;
+}
+
+@keyframes animate {
+  0% {
+    stroke-dasharray: 0 250%;
+  }
+
+  100% {
+    stroke-dasharray: 250% 0;
+  }
+}

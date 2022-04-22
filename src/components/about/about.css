@@ -1,0 +1,41 @@
+.about-main {
+  display: grid;
+  grid-template-columns: 45% 50%;
+  place-items: center;
+}
+
+.mypic {
+  width: 22rem;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, var(--color-primary));
+  display: grid;
+  place-items: center;
+}
+
+.mypic .myimg {
+  border-radius: 2rem;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.mypic .myimg:hover {
+  transform: translateY(-60px);
+}
+
+.mypic .myimg img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.about-cont {
+  padding: 2rem;
+}
+
+.about-cont h2 {
+  margin-bottom: 1rem;
+}
+
+.about-cont .btn {
+  margin-top: 2rem;
+}

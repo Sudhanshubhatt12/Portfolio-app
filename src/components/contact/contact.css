@@ -1,0 +1,111 @@
+.container-cont {
+    position: relative;
+    left: 3rem;
+    width: 93%;
+    display: flex;
+    padding: 0 1rem;
+    height: 67vh;
+    box-shadow: 2px 2px 7px rgb(46, 46, 63), -2px -2px 7px rgb(67, 65, 80);
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left {
+    position: relative;
+    flex: 40%;
+    height: 90%;
+    background-image: url(../../assets/contactwaal..jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0), -2px -2px 5px rgb(0, 0, 0);
+    border-radius: 0.5rem;
+
+}
+
+.left>h2,
+p,
+span {
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: rgb(124, 110, 46);
+}
+
+.left h2 {
+    font-weight: 700;
+    text-decoration: underline;
+    color: rgb(161, 136, 65);
+}
+
+.left .cont-inf {
+
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(124, 110, 46);
+
+
+}
+
+.left .cont-inf .one a {
+    color: rgb(124, 110, 46);
+}
+
+.left .cont-inf .one svg {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    color: rgb(124, 110, 46);
+}
+
+
+.right {
+    flex: 60%;
+    height: 100%;
+
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color: white;
+}
+
+.right form input {
+    width: 45%;
+    border: none;
+    border-bottom: 1px white solid;
+    background: transparent;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.right form textarea {
+    resize: none;
+    width: 90%;
+    background: transparent;
+    margin: 2rem;
+    height: 3rem;
+    border: 1px solid white;
+    font-size: 1rem;
+    color: white;
+}
+
+.right form button {
+    color: white;
+    height: 1.5rem;
+    width: 6rem;
+    position: relative;
+    left: 80%;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 1rem;
+    border: none;
+}
