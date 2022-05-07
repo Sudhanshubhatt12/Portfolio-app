@@ -4,7 +4,6 @@ import { MdCall,MdMail,MdLocationOn } from 'react-icons/md';
 
 const Contact = () => {
   return <section id="contact">
-    <h2>Get in touch</h2>
     <div className="container-cont">
       <div className="left">
         <h2>Contact Information</h2>

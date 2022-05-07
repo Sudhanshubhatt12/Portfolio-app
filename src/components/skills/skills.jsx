@@ -6,8 +6,7 @@ import { DiJavascript1 } from "react-icons/di";
 const Skills = () => {
   return (
     <section id="skills">
-     
-      <h2>Finest Skills</h2>
+    
       <div className="container">
         <div className="skill-card">
           <div className="card">

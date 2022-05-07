@@ -22,18 +22,18 @@ const Home = () => {
                 <a href={CV} download className="btn">
                   Download Cv
                 </a>
-                <a href="#contact" className="btn btn-primary">
+                <a href="/Contact" className="btn btn-primary">
                   Hire Me
                 </a>
               </div>
               <div className="socials">
-                <a href="">
+                <a href="https://github.com/Sudhanshubhatt12">
                   <FaGithub />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/sudhanshu-bhatt-34420a1a8">
                   <FaLinkedin />
                 </a>
-                <a href="">
+                <a href="https://www.instagram.com/sudhanshu_bhatt12">
                   <FaInstagram />
                 </a>
               </div>

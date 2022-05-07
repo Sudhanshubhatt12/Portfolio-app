@@ -5,8 +5,6 @@ import PIC from "../../assets/sudimg.png";
 const About = () => {
   return (
     <section id="about">
-    
-      <h2>About Me</h2>
       <div className="about-main">
         <div className="mypic">
         
@@ -24,7 +22,7 @@ const About = () => {
             for me . Then I started my web designing journey and enjoys it
             lot.to see some of my works click below.”
           </p>
-          <a href="#projects" className="btn btn-primary">
+          <a href="/Projects" className="btn btn-primary">
             Click Me
           </a>
         </div>
